@@ -1,0 +1,27 @@
+#main-table {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    border: solid black;
+}
+
+th {
+    cursor: pointer;
+}
+
+td {
+    display: compact;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.active {
+    border: solid 3px red;
+
+}
+
+.hide-3 {
+    text-transform: uppercase;
+    text-shadow: white 1px 1px 0, white -1px -1px 0,
+    white -1px 1px 0, white 1px -1px 0;
+}
